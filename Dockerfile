@@ -1,4 +1,4 @@
-FROM rabbitmq:3.6-management-alpine
+FROM rabbitmq:3-alpine
 COPY aliyun-jiankong.sh /
 COPY post_rabbitmq_jiankong.sh /
 ENV ALIYUN_USER_ID 123456
